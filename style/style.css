@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.width {
+  max-width: 1140px;
+  width: 71%;
+  margin: auto;
+}
+.btn {
+  background: #30b868;
+  padding: 12px 16px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+header {
+  margin: 16px 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 139px;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.hero {
+  background-image: url("/assets/hero-bg.png");
+  padding: 115px 0px;
+  color: white;
+}
+.hero .text {
+  max-width: 1360px;
+  margin: auto;
+  text-align: center;
+}
+.hero .text .early {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  gap: 11px;
+  color: #469165;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.hero .text h1 {
+  font-size: 72px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.hero .text h1 span {
+  color: #30b868;
+}
+.hero .text .private {
+  line-height: 32px;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.hero .text .button {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+}
+.hero .text .button .btn {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 21px;
+  font-size: 16px;
+}
+main .notesection {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+main .notesection h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+main .notesection p {
+  color: #627382;
+  margin-bottom: 44px;
+  text-align: center;
+}
+main .container {
+  display: flex;
+  gap: 24px;
+}
+main .container .content {
+  padding: 24px;
+  box-shadow: 0px 0px 8px #00000013;
+}
+main .container .content .img {
+  width: 50px;
+  height: 50px;
+  background: #f95555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 16px;
+}
+main .container .content h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+main .container .content p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.brainsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 120px;
+}
+.brainsection img {
+  width: 400px;
+  height: 400px;
+  border-radius: 12px;
+}
+.sol {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+.brainsection h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.brainsection .personal {
+  color: #627382;
+  margin-bottom: 40px;
+}
+.containerqq {
+  display: flex;
+  gap: 13px;
+  flex-direction: column;
+  align-items: start;
+}
+.containerqq p {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.containerqq i {
+  color: green;
+}
+.ready {
+  background: #f7f6f2;
+  padding: 80px 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.ready h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.ready .btn {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.Join {
+  color: #627382;
+  margin-bottom: 24px;
+}
+.free {
+  color: #627382;
+}
+footer {
+  background: #001931;
+  color: white;
+}
+footer .text {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0px;
+}
+footer .text .social p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+footer .text .social .icon {
+  display: flex;
+  gap: 16px;
+}
+footer img {
+  width: 130px;
+}
+.copy {
+  text-align: center;
+  color: #fafafa;
+  padding-bottom: 30px;
+}
