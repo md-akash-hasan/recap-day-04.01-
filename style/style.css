@@ -69,7 +69,7 @@ nav li a {
   display: none;
 }
 .hero {
-  background-image: url("../assets/hero-bg.png");
+  background-image: url("assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   padding: 115px 0px;
